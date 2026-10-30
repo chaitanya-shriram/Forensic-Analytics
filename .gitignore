@@ -1,0 +1,25 @@
+# dependencies and builds
+node_modules/
+frontend/dist/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# regenerated on first run (dataset download + training)
+backend/data_cache/
+backend/artifacts/*/
+!backend/artifacts/benchmark*.json
+
+# local test output
+e2e/screenshots/
+*.log
+
+# reference material and documents kept local
+*.pdf
+*.pptx
+~$*
+HOW_IT_WORKS.md
+WALKTHROUGH.md
+RUN.md
+ss/
+ss.zip
